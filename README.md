@@ -1,3 +1,3 @@
 
 ## Deploy
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Famanpandey7647%2Fultroiddb&template=https%3A%2F%2Fgithub.com%2Famanpandey7647%2Fultroiddb)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=hhttps://github.com/InternetAmethyst/ultroid-new)
