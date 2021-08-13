@@ -4,4 +4,4 @@
 
 
 
-#### If you anything wrong occours feel free to contant @Nomthingvmro /   @UltroidSpam
+#### If you anything wrong occours feel free to contant @Nomthingvmro /   @UltroidSpam on telegram
