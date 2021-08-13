@@ -1,2 +1,13 @@
 https://github.com/New-dev0/Telethon/archive/New.zip
 py-Ultroid==2021.7.19
+fonttools
+covid
+gtts
+pokedex.py
+pyshorteners
+pyfiglet
+pyjokes
+quotefancy
+wikipedia
+textblob
+lyrics_extractor==3.0.1
