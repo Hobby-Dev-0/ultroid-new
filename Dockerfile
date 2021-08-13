@@ -4,13 +4,10 @@ FROM programmingerror/ultroid:b0.1
 COPY . .
 RUN sh ultroid
 
-#working directory 
+#ENV time zone
 
-RUN wget -O /deploy/addons.txt https://git.io/JWdOk
-RUN pip3 install --no-cache-dir -r /deploy/addons.txt
-
-# start the bot
-CMD ["bash", "resources/startup/startup.sh"]
+ENV TZ=Asia/Kolkata
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 WORKDIR /root/TeamUltroid
 ENV PATH="/home/amanpandey/bin:$PATH"
 
