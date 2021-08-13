@@ -5,10 +5,13 @@ COPY . .
 RUN sh ultroid
 
 #working directory 
-WORKDIR /root/TeamUltroid
 
-# Install requirements
-RUN pip3 install -U -r https://raw.githubusercontent.com/TeamUltroid/Ultroid/main/requirements.txt
+RUN wget -O /deploy/addons.txt https://git.io/JWdOk
+RUN pip3 install --no-cache-dir -r /deploy/addons.txt
+
+# start the bot
+CMD ["bash", "resources/startup/startup.sh"]
+WORKDIR /root/TeamUltroid
 ENV PATH="/home/amanpandey/bin:$PATH"
 
 CMD ["python3","-m","pyUltroid"]
