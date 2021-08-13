@@ -1,2 +1,2 @@
 git clone https://github.com/teamultroid/ultroid
-pip3 install -U pyUltroid
+pip3 install -r requirements.txt
